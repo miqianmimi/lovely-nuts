@@ -1,3 +1,6 @@
+#4. Median of Two Sorted Arrays#
+#I decided to use quicksort to solve the problem#
+
 def quicksort(A, p, r):
     if p < r:
         q = partition(A, p, r)
