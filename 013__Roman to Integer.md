@@ -3,15 +3,9 @@
 Given a roman numeral, convert it to an integer.
 Input is guaranteed to be within the range from 1 to 3999.
 
-Solution:
-
 、、、
 class Solution(object):
     def romanToInt(self, s):
-        """
-        :type s: str
-        :rtype: int
-        """
         M = ["M", "MM", "MMM"]
         C = ["C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"]
         X = ["X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"]
@@ -57,7 +51,6 @@ class Solution(object):
             s = s[1:]
         else:
             n = n
-
         if s[:4] == "LXXX":
             n = 10 * 8 + n
             s = s[4:]
@@ -87,7 +80,6 @@ class Solution(object):
             s = s[1:]
         else:
             n = n
-
         if s[:4] == "VIII":
             n = 8 + n
             s = s[4:]
@@ -117,9 +109,7 @@ class Solution(object):
             s = s[1:]
         else:
             n = n
-
         return (n)
-
     def romanToInt(self, s):
         d = {'M':1000, 'D':500, 'C':100, 'L':50, 'X':10, 'V':5, 'I':1}
         res, p = 0, 'I'
