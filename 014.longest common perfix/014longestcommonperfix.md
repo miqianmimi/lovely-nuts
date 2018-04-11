@@ -1,7 +1,7 @@
-###14. Longest Common Prefix
+#14. Longest Common Prefix
 * Write a function to find the longest common prefix string amongst an array of strings.
 
-###example:
+#example:
 ```
 "abcdefg"
 "abcdefghijk"
@@ -10,7 +10,7 @@
 上面的字符串数组的最长公共前缀就是"abc"。
 ```
 
-###Analysis1:
+#Analysis1:
 第一步：找出该字符串数组中的最短字符串的长度l及其序列。
 第二步：用for循环从第一个字符串到最后一个字符串作比较。具体步骤如下：
 * （1）外层for循环长度从l一直到0
@@ -18,7 +18,7 @@
 * （3）内层for循环中用j表示字符串数组的索引，依次递增.
 *  (4) j==len的时候，遍历完成，更新result.
 
-###Solution1:
+#Solution1:
 ```
 class Solution(object):
     def longestCommonPrefix(self, strs):
@@ -55,7 +55,7 @@ zip函数可以把[1,2,3][4,5,6]->[(1,4),(2,5),(3,6)]
 zip(/asterisk ab)则是一个反过程
 set(’abcd')函数可以->[‘a’,'b','c','d'] 找到序列里面用过的字符。
 
-###Solution2:
+#Solution2:
 ```
 class Solution(object):
     def longestCommonPrefix(self, strs):
