@@ -2,8 +2,7 @@
 
 Given a roman numeral, convert it to an integer.
 Input is guaranteed to be within the range from 1 to 3999.
-
-、、、
+'''
 class Solution(object):
     def romanToInt(self, s):
         M = ["M", "MM", "MMM"]
@@ -116,4 +115,4 @@ class Solution(object):
         for c in s[::-1]:
             res, p = res - d[c] if d[c] < d[p] else res + d[c], c
         return res
-、、、
+'''
