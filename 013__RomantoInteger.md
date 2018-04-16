@@ -1,9 +1,9 @@
-#13.Roman to Integer
+# 13.Roman to Integer
 
 Given a roman numeral, convert it to an integer.
 Input is guaranteed to be within the range from 1 to 3999.
 
-SOLUTION 1: By myself.
+### Solution 1: By myself.
 ```
 class Solution(object):
     def romanToInt(self, s):
@@ -112,7 +112,7 @@ class Solution(object):
             n = n
         return (n)
 ```
-SOLUTION 2: In the simple way
+### Solution 2: In the simple way
 ```
     def romanToInt(self, s):
         d = {'M':1000, 'D':500, 'C':100, 'L':50, 'X':10, 'V':5, 'I':1}
