@@ -2,7 +2,9 @@
 This is for practicing the most popular 100 leetcode algorithm .
 ### 2018/04/10:
 
-* [8.String to Integer(atoi)](008__StringtoInteger(atoi).py),[12.Integer to Roman](012__IntegertoRoman.py),[13.Roman to Integer](013__RomantoInteger.md)
+* [8.String to Integer(atoi)](008__StringtoInteger(atoi).py),
+* [12.Integer to Roman](012__IntegertoRoman.py),
+* [13.Roman to Integer](013__RomantoInteger.md)
 
 ### 2018/04/11:
 * [14.Longest Common Prefix](014.longestcommonperfix/014longestcommonperfix.md)
@@ -11,8 +13,10 @@ This is for practicing the most popular 100 leetcode algorithm .
 * [16.3Sum Closet](016.3SumClosest/0163sumcloset.md)
 
 ### 2018/04/16:
-* [18.4Sum](018.4Sum/0184sum.md),[24.Swap Nodes In Pairs](024.SwapNodesInPairs/024swapnodesinpairs.md),[26.Remove Duplicates From Sorted Arrays](024.RemoveDuplicatesFromSortedArrays/026removeduplicatesfromsortedarrays.md) 
+* [18.4Sum](018.4Sum/0184sum.md),
+* [24.Swap Nodes In Pairs](024.SwapNodesInPairs/024swapnodesinpairs.md),
+* [26.Remove Duplicates From Sorted Arrays](024.RemoveDuplicatesFromSortedArrays/026removeduplicatesfromsortedarrays.md) 
 
 ### 2018/04/17:
-* [027.Remove Elements](027.RemoveElement/026removeelement.md)
-* [028.Implement Strstr()](028.ImplementStrstr/028implementstrstr.md)
+* [27.Remove Elements](027.RemoveElement/027removeelement.md)
+* [28.Implement Strstr()](028.ImplementStrstr/028implementstrstr.md)
