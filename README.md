@@ -13,3 +13,5 @@ This is for practicing the most popular 100 leetcode algorithm .
 ### 2018/04/16:
 * [18.4Sum](018.4Sum/0184sum.md),[024.Swap Nodes In Pairs](024.SwapNodesInPairs/024swapnodesinpairs.md),[026.Remove Duplicates From Sorted Arrays](024.RemoveDuplicatesFromSortedArrays/026removeduplicatesfromsortedarrays.md) 
 
+### 2018/04/17:
+* [026.Remove Duplicates From Sorted Array](026.RemoveDuplicatesFromSortedArray/026removeduplicatesfromsortedarray.md),[027.Remove Elements](027.RemoveElements/026removeelements.md)
