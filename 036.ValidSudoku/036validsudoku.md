@@ -6,7 +6,8 @@ Determine if a 9x9 Sudoku board is valid. Only the filled cells need to be valid
 Each row must contain the digits 1-9 without repetition.
 Each column must contain the digits 1-9 without repetition.
 Each of the 9 3x3 sub-boxes of the grid must contain the digits 1-9 without repetition.
-![数独](https://www.google.com.hk/search?q=%E6%95%B0%E7%8B%AC&safe=strict&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjE567H_cLaAhVLFZQKHUTWD4sQ_AUICigB&biw=1346&bih=706#imgrc=FpumqP8wiM7GzM:)
+
+![数独](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1524037017049&di=0e1f5339ba4788e38826c6dc21c3c75b&imgtype=0&src=http%3A%2F%2Fp8.qhimg.com%2Ft0154f4db11f42802bf.jpg)
 
 ### Example:
 ```
@@ -40,9 +41,9 @@ def isValidSudoku(self, board):
 ```
 
 ### 本题关键：
-* ***粗体***@巧用set
-```+python
-python的set和其他语言类似, 是一个无序不重复元素集, 基本功能包括关系测试和消除重复元素. 集合对象还支持union(联合), intersection(交), difference(差)和sysmmetric difference(对称差集)等数学运算.
+* ***巧用set***
+`python的set和其他语言类似, 是一个无序不重复元素集, 基本功能包括关系测试和消除重复元素. 集合对象还支持union(联合), intersection(交), difference(差)和sysmmetric difference(对称差集)等数学运算.`
+```
 >>> x = set('spam')  
 >>> y = set(['h','a','m'])  
 >>> x, y  
