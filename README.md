@@ -21,3 +21,7 @@ This is for practicing the most popular 100 leetcode algorithm .
 * [27.Remove Elements](027.RemoveElement/027removeelement.md)
 * [28.Implement Strstr()](028.ImplementStrstr/028implementstrstr.md)
 * [35.Search Insert Position](035.SearchInsertPosition/035searchinsertposition.md)
+
+### 2018/04/18:
+* [29.Divide Two Integers](029.DivideTwoIntegers/029dividetwointegers.md)
+* [36.Valid Sudoku](036.ValidSudoku/036validsudoku.md)
