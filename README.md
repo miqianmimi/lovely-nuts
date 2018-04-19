@@ -25,3 +25,7 @@ This is for practicing the most popular 100 leetcode algorithm .
 ### 2018/04/18:
 * [29.Divide Two Integers](029.DivideTwoIntegers/029dividetwointegers.md)
 * [36.Valid Sudoku](036.ValidSudoku/036validsudoku.md)
+
+### 2018/04/19:
+* [038.Count and Say](038.CountandSay/038countandsay.md)
+* [040.Combination Sum II](040.CombinationSumII0s/040combinationsumii.md)
