@@ -32,5 +32,5 @@ This is for practicing the most popular 100 leetcode algorithm .
 
 ### 2018/04/20:
 * [043.Multiply Strings](043.MultiplyStrings/043multiplystrings.md)
-* [047.Permutations II](047.PermutationsII/047permutationsII.md)
+* [047.Permutations II](047.PermutationsII/047.permutationsII.md)
 
