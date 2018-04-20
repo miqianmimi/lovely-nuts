@@ -28,8 +28,12 @@ This is for practicing the most popular 100 leetcode algorithm .
 
 ### 2018/04/19:
 * [038.Count and Say](038.CountandSay/038countandsay.md)
+<<<<<<< HEAD
 * [040.Combination Sum II](040.CombinationSumII0s/040combinationsumii.md)
 
 ### 2018/04/20:
 * [043.Multiply Strings.md](043.MultiplyStrings/043multiplystrings.md)
 * [047.Permutations II](047.PermutationsII/047permutationsii.md)
+=======
+* [040.Combination Sum II](040.CombinationSumII/040combinationsumii.md)
+>>>>>>> 2fffb2cab94124cef39f53c2677060f2b85f42f7
