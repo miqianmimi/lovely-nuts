@@ -13,7 +13,7 @@ Output: "6"
 
 `要注意的是高位是i+j,低位是i+j+1`
 
-* 1.两数相乘，结果的长度不会大于两数长度和m + n，所以一开始我们开一个int[] res = new int[m + n]
+* 1. 两数相乘，结果的长度不会大于两数长度和m + n，所以一开始我们开一个int[] res = new int[m + n]
 * 2. 接下来对num1和num2做一个双重循环从后向前遍历
 * 2.1.当前的 digit1 = num1.charAt(i) - '0'，  digit2 = num2.charAt(j) - '0'
 * 2.2.这时我们可以更新当前res[i + j + 1]的这个位置为原来存在这一位置上的值再加上新的值digits 1 * digit2，简略一下就是 res[i + j + 1] += digits 1 * digit2 
