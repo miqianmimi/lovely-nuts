@@ -34,3 +34,6 @@ This is for practicing the most popular 100 leetcode algorithm .
 * [043.Multiply Strings](043.MultiplyStrings/043multiplystrings.md) Divide and Conquer FFT傅里叶快速算法
 * [047.Permutations II](047.PermutationsII/047.permutationsII.md) 递归法+迭代法
 
+### 2018/05/6:
+* [050.Pow(x,n)](050.Pow(x,n)/050.pow(x,n).md) 递归
+
