@@ -36,4 +36,5 @@ This is for practicing the most popular 100 leetcode algorithm .
 
 ### 2018/05/6:
 * [050.Pow(x,n)](050.Pow(x,n)/050.pow(x,n).md) 递归
+* [special: lineupg](special.lineupg/lineupg.md) 递归 RMQ问题的sparse_table
 
