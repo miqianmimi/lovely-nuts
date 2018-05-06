@@ -12,11 +12,8 @@ Find the biggest and the smallest number in the line.
 
 ## Analysis:
 算法思路： 
-
 1）如果数组长度为1，则最大值与最小值相等 
-
 2）如果数组长度为2，则最大值与最小值各位其中一个。 
-
 3）如果数组长度大于2，那么采用二分策略，递归求前一半的最大最小值，与后一半的最大最小值，之后两两比较后的数组的最大最小值。
 
 ## Solution1:Python
@@ -168,17 +165,74 @@ int main()
 
 ## Analysis: RMQ问题：
 这道题是range minimum query RMQ问题：
-
 A1,A2,...An 设计一个数据结构，支持查询操作Query(L,R) 计算min{Al,Al+1...AR}
-
 最常见的方法是Tarjan的sparse-table
-
 预处理O(nlogn) 查询只需要O(1)的时间
-
 递推的方法
-
 d(i,j)=min{d(i,j-1),d(i+2^j-1,j-1)}
-
 对于查询操作，K使得2^k<R-L+1的最大整数
-
 L开头R结尾的两个长度为2^K的区间合起来覆盖了查询区间[L,R] 
+
+
+## Solution3:RMQ (SPARSE - TABLE)：
+```
+#include <iostream>
+#include <fstream>
+#include <string>
+#include<iostream> 
+#include<algorithm>
+
+using namespace std;
+
+int d[50000][20];
+int p[50000][20];
+
+void RMQ_init(int A[], int n ) {
+    for (int i = 0; i < n; i++) d[i][0] = A[i];
+    for (int j = 1; (1<<j) <= n; j++)
+        for(int i = 0; i+(1<<j) -1 < n; i++)
+            d[i][j]=min(d[i][j-1],d[i+(1<<(j-1))][j-1]);
+}
+void RMQ_initi(int A[], int n) {
+    for (int i = 0; i < n; i++) p[i][0] = A[i];
+    for (int j = 1; (1<<j) <= n; j++)
+        for(int i = 0; i + (1<<j) - 1 < n; i++)
+            p[i][j]=max(p[i][j-1],p[i+(1<<(j-1))][j-1]);
+            
+}
+
+int RMQ(int L, int R ) {
+    int k = 0;
+    while((1<<(k+1)) <= R-L+1 ) k++;
+    return max(p[L][k], p[R-(1<<k)+1][k])-min(d[L][k],d[R-(1<<k)+1][k]);
+}
+int main()
+{
+
+    freopen("lineupg.in", "r", stdin);
+    freopen("lineupg.out", "w", stdout);
+    int n, q; 
+    scanf("%d %d", &n, &q);
+    int height[n];
+    int i = 0;
+    while (i < n) {
+        scanf("%d", &height[i]);
+        i++;
+    }
+    int a[q][2];
+    i = 0;
+    while (i < q) {
+        scanf("%d %d", &a[i][0], &a[i][1]);
+        i++;
+    }
+    RMQ_init(height, n);
+    RMQ_initi(height, n);
+    i = 0;
+    int diff;
+    while (i < q) {
+        diff=RMQ(a[i][0]-1, a[i][1]-1);
+        printf("%d\n",diff);        
+        i++;
+    }
+}
+```
