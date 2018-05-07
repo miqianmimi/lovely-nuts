@@ -163,7 +163,7 @@ int main()
 }
 ```
 
-## Analysis: RMQ问题：
+## Analysis: RMQ解法：
 这道题是range minimum query RMQ问题：
 A1,A2,...An 设计一个数据结构，支持查询操作Query(L,R) 计算min{Al,Al+1...AR}
 最常见的方法是Tarjan的sparse-table
@@ -236,3 +236,13 @@ int main()
     }
 }
 ```
+
+real    0m0.111s
+
+user    0m0.102s
+
+sys 0m0.007s
+
+right!
+
+## Analysis: 线段树：
