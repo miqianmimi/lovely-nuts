@@ -36,9 +36,9 @@ This is for practicing the most popular 100 leetcode algorithm .
 
 ### 2018/05/06:
 * [050.Pow(x,n)](050.Pow(x,n)/050.pow(x,n).md) 递归
-* [special: lineupg](special.lineupg/lineupg.md) 递归 RMQ问题的sparse_table
+* [special: lineupg](special.lineupg/lineupg.md) 递归 RMQ问题的sparse_table 线段树
 
 ### 2018/05/07:
 * [058.Length Of Last Word](058.LengthOfLastWord/058.LengthofLastWord.md)
-* [059.Spiral Matrix II](059.SpiralMatrixII/059.SpiralMatrixII.md)
+* [059.Spiral Matrix II](059.SpiralMatrixII/059.SpiralMatrixII.md) 人工智能方法direction
 
