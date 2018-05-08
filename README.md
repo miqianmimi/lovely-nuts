@@ -44,3 +44,4 @@ This is for practicing the most popular 100 leetcode algorithm .
 
 ### 2018/05/08:
 * [060. Permutation Sequence](060.PermutationSequence/060.PermutationSequence.md) 数学方法,循环迭代
+* [061. Rotate List](061.RotateList/061.RotateList.md) 链表 指针 连接+断开
