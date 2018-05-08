@@ -34,9 +34,11 @@ This is for practicing the most popular 100 leetcode algorithm .
 * [043.Multiply Strings](043.MultiplyStrings/043multiplystrings.md) Divide and Conquer FFT傅里叶快速算法
 * [047.Permutations II](047.PermutationsII/047.permutationsII.md) 递归法+迭代法
 
-### 2018/05/6:
+### 2018/05/06:
 * [050.Pow(x,n)](050.Pow(x,n)/050.pow(x,n).md) 递归
 * [special: lineupg](special.lineupg/lineupg.md) 递归 RMQ问题的sparse_table
 
-### 2018/05/6:
+### 2018/05/07:
 * [058.Length Of Last Word](058.LengthOfLastWord/058.LengthofLastWord.md)
+* [059.Spiral Matrix II](059.SpiralMatrixII/059.SpiralMatrixII.md)
+
