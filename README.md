@@ -39,7 +39,7 @@ This is for practicing the most popular 100 leetcode algorithm .
 * [special: lineupg](special.lineupg/lineupg.md) 递归 RMQ问题的sparse_table 线段树
 
 ### 2018/05/07:
-* [058.Length Of Last Word](058.LengthOfLastWord/058.LengthofLastWord.md)
+* [058.Length Of Last Word](058.LengthOfLastWord/058.LengthofLastWord.md) 第一个C++ (✿>◡‿<)
 * [059.Spiral Matrix II](059.SpiralMatrixII/059.SpiralMatrixII.md) 人工智能方法direction
 
 ### 2018/05/08:
