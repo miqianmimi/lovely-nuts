@@ -43,4 +43,4 @@ This is for practicing the most popular 100 leetcode algorithm .
 * [059.Spiral Matrix II](059.SpiralMatrixII/059.SpiralMatrixII.md) 人工智能方法direction
 
 ### 2018/05/08:
-* [060. Permutation Sequence](060.PermutationSequence/060.PermutationSequence.md)
+* [060. Permutation Sequence](060.PermutationSequence/060.PermutationSequence.md) 数学方法,循环迭代
