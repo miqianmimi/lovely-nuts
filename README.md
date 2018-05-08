@@ -42,3 +42,5 @@ This is for practicing the most popular 100 leetcode algorithm .
 * [058.Length Of Last Word](058.LengthOfLastWord/058.LengthofLastWord.md)
 * [059.Spiral Matrix II](059.SpiralMatrixII/059.SpiralMatrixII.md) 人工智能方法direction
 
+### 2018/05/08:
+* [060. Permutation Sequence](060.PermutationSequence/060.PermutationSequence.md)
