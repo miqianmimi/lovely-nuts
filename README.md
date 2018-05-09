@@ -48,3 +48,4 @@ This is for practicing the most popular 100 leetcode algorithm .
 
 ### 2018/05/09:
 * [063. Unique Paths II](063.UniquePathsII/063.UniquePathsII.md) 动态规划 DP算法
+* [066. Plus One](066.PlusOne/066.PlusOne.md) 数学进位循环
