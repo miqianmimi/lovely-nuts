@@ -1,5 +1,6 @@
 # Practice-Leetcode
-This is for practicing the most popular 100 leetcode algorithm .
+这是一个中国人🇨🇳用来练习leetcode的文档.每到下面的题都有详细的解题思路，尽请参考。
+
 ### 2018/04/10:
 
 * [8.String to Integer(atoi)](008__StringtoInteger(atoi).py),
