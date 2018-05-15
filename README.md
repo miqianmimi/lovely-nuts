@@ -1,5 +1,5 @@
 # Practice-Leetcode
-这是一个中国人🇨🇳用来练习leetcode的文档.每道下面的题都有详细的解题思路，和知识点分析，尽请参考。
+这是一个Chinese School Girl🇨🇳用来练习leetcode的文档.每道下面的题都有详细的解题思路，和知识点分析，尽请参考。
 
 找实习的小伙伴也可以参考我的Tech-blog里面的面经 [miqianmimi Tech-blog](http://www.miqianmimi.wordpress.com/)
 
@@ -52,3 +52,7 @@
 ### 2018/05/09:
 * [063. Unique Paths II](063.UniquePathsII/063.UniquePathsII.md) 动态规划 DP算法
 * [066. Plus One](066.PlusOne/066.PlusOne.md) 数学进位循环
+
+### 2018/05/15:
+* [头条机考1. Elastic Search](toutiao1.elasticsearch/elasticsearch(es).md) 贪心算法遍历，ES经典搜索匹配算法，trick
+* [头条机考2. 贪吃蛇蛇](toutiao2.tanchishe/tanchishe.md) 动态规划算法，加了特殊情况的状态转移方程的写法
