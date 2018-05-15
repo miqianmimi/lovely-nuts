@@ -1,5 +1,6 @@
 # Practice-Leetcode
 这是一个中国人🇨🇳用来练习leetcode的文档.每道下面的题都有详细的解题思路，和知识点分析，尽请参考。
+也请参考我的Tech-blog里面的面试经验。www.miqianmimi.wordpress.com
 
 ### 2018/04/10:
 
