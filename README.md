@@ -18,7 +18,7 @@
 ### 2018/04/16:
 * [18.4Sum](018.4Sum/0184sum.md) 枚举，左右指针
 * [24.Swap Nodes In Pairs](024.SwapNodesInPairs/024swapnodesinpairs.md) 链表
-* [26.Remove Duplicates From Sorted Arrays](026.RemoveDuplicatesFromSortedArrays/026removeduplicatesfromsortedarrays.md) 两个指针化简
+* [26.Remove Duplicates From Sorted Arrays](026.RemoveDuplicateFromSortedArray/026.removeduplicatesfromsortedarray.md)两个指针化简
 
 ### 2018/04/17:
 * [27.Remove Elements](027.RemoveElement/027removeelement.md) 两个指针化简
