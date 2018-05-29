@@ -62,8 +62,7 @@
 
 ### 2018/05/29:
 * [069. Sqrt(x)](069.Sqrtx/069.Sqrtx.md) 二分法，更新公式
-
-
+* [071. Simplify Path](071.SimplifyPath/071.SimplifyPath.md) 栈的运用和split函数
 
 
 
