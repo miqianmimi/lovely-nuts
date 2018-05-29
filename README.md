@@ -57,8 +57,15 @@
 * [头条机考1. Elastic Search](toutiao1.elasticsearch/elasticsearch(es).md) 贪心算法遍历，ES经典搜索匹配算法，trick
 * [头条机考2. 贪吃蛇蛇](toutiao2.tanchishe/tanchishe.md) 动态规划算法，加了特殊情况的状态转移方程的写法
 
+### 2018/05/22:
+* [067. Add Binary](067.AddBinary/067.AddBinary.md)
+
 ### 2018/05/29:
 * [069. Sqrt(x)](069.Sqrtx/069.Sqrtx.md) 二分法，更新公式
+
+
+
+
 
 
 
