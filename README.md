@@ -64,6 +64,13 @@
 * [069. Sqrt(x)](069.Sqrtx/069.Sqrtx.md) 二分法，更新公式
 * [071. Simplify Path](071.SimplifyPath/071.SimplifyPath.md) 栈的运用和split函数~
 
+### 2018/05/30:
+* [073. Set Matrix Zeroes](073.SetMatrixZeroes/073.SetMatrixZeroes.md) 找特殊位置放置，节省space
+* [074. Search a 2D Matrix](074.Searcha2DMatrix/074.Searcha2DMatrix.md) 二分法：矩阵看成列表；
+矩阵可以往右往下
+
+
+
 
 
 
