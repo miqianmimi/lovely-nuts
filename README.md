@@ -78,4 +78,4 @@
 
 ### 2018/06/14:
 * [082.Remove Duplicates from Sorted List II ](082.RemoveDuplicatesfromSortedListII/082.RemoveDuplicatesfromSortedListII.md) 链表+一个list记录dict中key的顺序
-
+* [083.Remove Duplicates from Sorted List ](083.RemoveDuplicatesfromSortedLis/083.RemoveDuplicatesfromSortedList.md) 链表遍历一遍，记录一个key
