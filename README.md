@@ -3,8 +3,6 @@
 
 找实习的小伙伴也可以参考我的Tech-blog里面的面经 [miqianmimi Tech-blog](http://www.miqianmimi.wordpress.com/)
 
-Thanks
-
 ### 2018/04/10:
 
 * [8.String to Integer(atoi)](008__StringtoInteger(atoi).py),
