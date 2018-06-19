@@ -81,4 +81,4 @@
 * [083.Remove Duplicates from Sorted List ](083.RemoveDuplicatesfromSortedLis/083.RemoveDuplicatesfromSortedList.md) 链表遍历一遍，记录一个key
 
 ### 2018/06/15:
-* [086.Partition List ](086.PartitionList/086.PartitionList.md) 链表
+* [086.Partition List ](086.PartitionList/086.PartitionList.md) 双链表的链接
